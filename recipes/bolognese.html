@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Bolognese</h1>
-    <img src="https://www.gaumenfreundin.de/wp-content/uploads/2021/10/Bolognese-Sauce.jpg" alt="Bolognese" height="300" width="200">
+    <!-- When the height + width value aren’t included, if an image takes longer to load than the rest of the page contents, it won’t take up any space on the page at first but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a height and width prevents this from happening, as space will be reserved on the page and appear blank until the image loads. -->
+    <img src="https://www.gaumenfreundin.de/wp-content/uploads/2021/10/Bolognese-Sauce.jpg" alt="Bolognese" height="auto" width="200">
     <h2>How to make the best Bolognese</h2>
     <p>First you should visit Italy to know how it's done. After that you need to go to a market to get the best ingredients.</p>
     <h3>Ingredients:</h3>
